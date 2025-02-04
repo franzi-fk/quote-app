@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-family: sans-serif;
+  color: rgb(6, 12, 60);
 }
 
 html,
@@ -31,8 +32,12 @@ h1 {
   margin: 0;
 }
 
+h1::before {
+  content: "❛❛ ";
+}
+
 button {
-  background-color: rgb(58, 93, 158);
+  background-color: rgb(24, 83, 194);
   color: white;
   font-size: 1rem;
   font-family: sans-serif;
@@ -67,7 +72,7 @@ main {
 
 #author {
   font-size: 1.2rem;
-  color: rgb(94, 94, 94);
+  color: rgb(82, 86, 118);
   grid-column-start: 2;
   grid-column-end: -2;
   margin: 0;
