@@ -39,7 +39,7 @@ h1::before {
 button {
   background-color: rgb(24, 83, 194);
   color: white;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: sans-serif;
   border: none;
   border-radius: 0.2rem;
@@ -71,13 +71,9 @@ main {
 }
 
 #author {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: rgb(82, 86, 118);
   grid-column-start: 2;
   grid-column-end: -2;
   margin: 0;
-}
-
-#author::before {
-  content: "— ";
 }
